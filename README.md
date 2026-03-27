@@ -3,8 +3,8 @@
 Sistema Full-Stack de gestão de tarefas (To-Do List).
 
 ## Tecnologias Usadas
-- **Frontend:** React.js, Axios, CSS puro.
-- **Backend:** Node.js, Express, CORS.
+- **Frontend:** React.js.
+- **Backend:** Node.js.
 - **Base de Dados:** MySQL.
 
 ## Funcionalidades
