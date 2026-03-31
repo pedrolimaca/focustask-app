@@ -77,7 +77,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>FocusTask 🚀</h1>
+      <h1>FocusTask</h1>
 
       <form onSubmit={addTask} className="task-form">
         <input
@@ -107,7 +107,7 @@ function App() {
       <form onSubmit={handleSearch} className="search-bar">
         <input 
           type="text" 
-          placeholder="🔍 Pesquisar tarefa pelo nome..." 
+          placeholder="Pesquisar tarefa pelo nome..." 
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
@@ -124,7 +124,7 @@ function App() {
 
       <div className="task-list">
         {tasks.length === 0 ? (
-          <p className="empty-msg">Nenhuma tarefa encontrada. ☕</p>
+          <p className="empty-msg">Nenhuma tarefa encontrada.</p>
         ) : (
           tasks.map((task) => (
             <div 
